@@ -49,13 +49,36 @@ Scenario: Successful Login
 
 ---
 
-##  Run Tests
+##  Run Tests 
+
+### 1️ Using Maven (Terminal)
 
 ```bash
-mvn clean test  or pom.XML [run as Maven Test]
+mvn clean test
 ```
 
 ---
+
+### 2️ Using Eclipse / IDE
+
+* Right click on `pom.xml`
+* Click **Run As → Maven Test**
+
+---
+
+### 3️ Using run.bat (One-Click Execution)
+
+Create a file named **run.bat** in your project and add and save:
+
+```bat
+cd C:\Users\Bindu DM\eclipse-workspace\CucumberDemo1
+mvn clean test
+```
+
+ Double-click `run.bat` to execute tests automatically.
+
+---
+
 
 ##  Highlights
 
