@@ -60,10 +60,15 @@ mvn clean test  or pom.XML [run as Maven Test]
 ##  Highlights
 
  Real-time web application automation
+ 
  Clean and simple BDD implementation
+ 
  Maven-based project structure
+ 
  Easy to extend for more test cases
+ 
  Simple & scalable design
+ 
 ---
 
 ##  Author
